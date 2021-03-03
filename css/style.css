@@ -3,6 +3,10 @@ img {
     width: 100%;
 }
 
+.txt_style {
+    color: #2d4069;
+    font-weight: 600;
+}
 /*COMMON*/
 
 
@@ -16,7 +20,8 @@ img {
 }
 
 .top_nav .logo img {
-
+    height: 35px;
+    width: auto;
 }
 
 .top_nav .menu {
@@ -48,6 +53,10 @@ img {
     padding-left: 10px;
 }
 
+.burger_menu {
+    padding-top: 15px;
+}
+
 .burger_menu a {
     color: #006aff;
     font-size: 20px;
@@ -58,5 +67,84 @@ img {
     padding-left: 10px;
 }
 
+.bot_nav {
+    background-image: url(../img/ms-jumbo.jpg);
+    background-size: cover;
+}
 
+.teaser_header {
+    padding-top: 15px;
+}
+
+.teaser_header h1 {
+    color: white;
+    font-size: xxx-large;
+    font-weight: bold;
+}
+
+.teaser_header p {
+    color: lightgrey;
+}
+
+.teaser_right_box {
+    background-color: white;
+    border-radius: 10px;
+}
+
+.teaser_right_content h2 {
+   padding-top: 30px;
+}
+
+.teaser_right_content h3 {
+    color: #006aff;
+}
+
+.teaser_right_box form input,
+.button_form, .button_google {
+    width: 90%;
+    margin: auto;
+}
+
+.button_form .size_btn {
+    padding: 5px;
+    background-color: #579aff;
+    color: white;
+    border: none;
+}
+
+.button_google .size_btn {
+    padding: 5px;
+    background-color: white;
+    border: none;
+}
+
+.button_google {
+    padding-top: 10px;
+}
+
+.button_google button {
+    color: #2d4069;
+
+}
+
+.button_google button:hover {
+    color: #579aff;
+}
+
+.button_google button img {
+    height: 20px;
+    width: auto;
+}
+
+.button_google button span {
+    padding-left: 139px;
+    padding-right: 169px;
+    font-size: larger;
+}
+
+.info_signup p {
+    font-size: smaller;
+    padding-bottom: 30px;
+}
 /*HEADER*/
+
