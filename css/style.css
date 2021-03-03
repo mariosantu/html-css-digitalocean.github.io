@@ -81,6 +81,7 @@ img {
 .bot_nav {
     background-image: url(../img/ms-jumbo.jpg);
     background-size: cover;
+    padding: 50px 0;
 }
 
 .teaser_header {
@@ -90,11 +91,13 @@ img {
 .teaser_header h1 {
     color: white;
     font-size: xxx-large;
-    font-weight: bold;
+    font-weight: 900;
+    padding-right: 59px;
 }
 
 .teaser_header p {
     color: lightgrey;
+    font-size: x-large;
 }
 
 .teaser_right_box {
@@ -161,6 +164,8 @@ img {
 
 /*Main*/
 
+/*logos section*/
+
 #logos_section {
     background-color: #f3f5f9;
 }
@@ -181,6 +186,10 @@ img {
 .logos_list img {
     vertical-align: middle;
 }
+/*Deploy section*/
+
+
+/*Deploy section*/
 
 .deploy_teaser h2 {
     padding-top: 30px;
@@ -189,7 +198,7 @@ img {
 .deploy_teaser p {
     color: #6f7b97;
     font-size: large;
-    padding-top: 5px;
+    padding-top: 20px;
     font-weight: 600;
     padding-bottom: 30px;
 }
@@ -221,6 +230,96 @@ img {
     color: #6f7b97; 
     font-size: initial;
 }
+/*Deploy section*/
+
+/*Dev section*/
+#dev_section {
+    background-color: #f3f5f9;
+}
+
+.develop_teaser h2 {
+    padding-top: 70px;
+    padding-bottom: 20px;
+}
+
+.develop_teaser p {
+    font-size: large;
+    font-weight: 600;
+    color: #6f7b97;
+    padding-bottom: 90px;
+}
+
+.chevron-left,
+.chevron-right {
+    padding-top: 150%;
+}
+ 
+.chevron-right i {
+    color: #031c4e;
+    font-size: xxx-large;
+}
+
+.chevron-left i {
+    color: #031c4e;
+    font-size: xxx-large;
+}
+
+/*Dev footer*/
+
+.dev_footer > div {
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+.circle_cont {
+    padding-top: 10px;
+}
+
+.circle_cont ul li {
+    display: inline-block;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    border: 1px solid #016dff;
+}
+
+.circle_cont ul li:first-child {
+    background-color: #016dff;
+}
+/*Dev footer*/
+/*Dev section*/
+
+/*features section*/
+#features_section {
+    padding-bottom: 40px;
+}
+
+.features_teaser h2 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.features_info_container h4,
+.features_info_container p,
+.features_info_container a {
+    padding-top: 20px;
+}
+
+.features_info_container p {
+    color: #6f7b97;
+}
+
+.features_info_container a {
+    color: #006aff;
+    font-weight: 600;
+    text-decoration: none;
+}
+/*features section*/
+
+
+
+
+
 /*Main*/
 
 
