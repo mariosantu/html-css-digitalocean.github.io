@@ -7,6 +7,11 @@ img {
     color: #2d4069;
     font-weight: 600;
 }
+
+.small_wrapper {
+    width: 60%;
+    margin: auto;
+}
 /*COMMON*/
 
 
@@ -147,4 +152,25 @@ img {
     padding-bottom: 30px;
 }
 /*HEADER*/
+
+/*Main*/
+
+#logos_section {
+    background-color: lightgrey;
+}
+
+.logos_sec_teaser h5 {
+    color: #6f7b97;
+    font-weight: 700;
+    padding: 20px 0;
+}
+
+.logos_list li {
+    display: inline-block;
+    width: calc(100% / 6 - 4px);
+}
+
+/*Main*/
+
+
 
