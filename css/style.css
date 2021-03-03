@@ -1,3 +1,62 @@
-body {
-    background-color: aqua;
+/*COMMON*/
+img {
+    width: 100%;
 }
+
+/*COMMON*/
+
+
+/*HEADER*/
+.top_nav {
+    padding: 10px;
+}
+
+.top_nav .logo {
+    padding-top: 7px;
+}
+
+.top_nav .logo img {
+
+}
+
+.top_nav .menu {
+    padding-top: 15px;
+}
+
+.top_nav .menu li a {
+    color: #2d4069;
+    font-weight: 600;
+}
+
+
+.top_nav .menu li {
+    list-style-type: none;
+    display: inline-block
+}
+
+.top_nav .right_menu {
+    padding-top: 7px;
+}
+
+.top_nav .right_menu li:last-child {
+    padding-left: 10px;
+}
+
+.top_nav .menu .signup {
+    border-color:#006aff;
+    color: #006aff;
+    padding-left: 10px;
+}
+
+.burger_menu a {
+    color: #006aff;
+    font-size: 20px;
+}
+
+.top_nav .menu li a {
+    text-decoration: none;
+    padding-left: 10px;
+}
+
+
+/*HEADER*/
