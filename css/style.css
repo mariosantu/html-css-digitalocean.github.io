@@ -219,7 +219,7 @@ img {
 
 .deploy_info_container p {
     color: #6f7b97; 
-    font-size: smaller;
+    font-size: initial;
 }
 /*Main*/
 
