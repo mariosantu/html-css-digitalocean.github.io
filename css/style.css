@@ -432,6 +432,7 @@ img {
 
 #get_start {
     background-color: #0034ae;
+    padding-bottom: 45px;
 }
 
 #get_start .get_start_teaser h2 {
@@ -450,10 +451,85 @@ img {
 
 /*Get started section*/
 
-
-
-
 /*Main*/
+
+/*FOOTER*/
+
+#footer_list {
+    background-color: #031c4e;
+}
+
+.footer_left_list_container {
+    padding-top: 80px;
+}
+
+.footer_left_list_container img {
+    height: 50px;
+    width: auto;
+}
+
+.footer_left_list_container p {
+    color: #7a859d;
+    font-weight: 600;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.footer_left_list_container span {
+    color: #5a6887;
+}
+
+.footer_left_list_container ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer_left_list_container ul li {
+    display: inline-block;
+    font-size: x-large;
+    padding-right: 15px;
+}
+
+.footer_left_list_container ul li a i {
+    color: #7a859d;
+}
+
+
+.common_footer_list_style {
+    list-style-type: none;
+    padding-top: 95px;
+}
+
+.common_footer_list_style li {
+    padding-top: 5px;
+}
+
+.common_footer_list_style a {
+    text-decoration: none;
+    color: #a6adbd;
+    font-weight: 600;
+}
+
+.common_footer_list_style .title {
+    color: white;
+    font-weight: 600;
+    font-size: larger;
+}
+
+/*MEDIA QUERY*/
+
+@media screen and (max-width: 991px) {
+
+    .common_footer_list_style {
+        padding: 0;
+        padding-top: 20px;
+    }
+}
+
+/*MEDIA QUERY*/
+/*FOOTER*/
+
+
 
 
 
