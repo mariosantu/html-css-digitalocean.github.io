@@ -234,13 +234,16 @@ img {
 /*Deploy section*/
 
 /*Dev section*/
-#dev_section {
+#dev_section,
+#rockerbox {
     background-color: #f3f5f9;
 }
 
-.develop_teaser h2 {
+.develop_teaser h2,
+.rockerbox_teaser h2 {
     padding-top: 70px;
     padding-bottom: 20px;
+    margin: 0;
 }
 
 .develop_teaser p {
@@ -267,7 +270,8 @@ img {
 
 /*Dev footer*/
 
-.dev_footer > div {
+.dev_footer > div,
+.rock_footer > div {
     padding-top: 10px;
     padding-bottom: 30px;
 }
@@ -360,6 +364,93 @@ img {
     text-decoration: none;
 }
 /*region list section*/
+
+/*rockerbox section*/
+.thin_wrapper {
+    width: 90%;
+    margin: auto;
+}
+
+.rockbox_container {
+    background-color: white;
+    padding-top: 91px;
+    padding-top: 91px;
+    padding-bottom: 15px;
+    margin-top: 80px;
+}
+
+#rockerbox .rockbox_container img {
+    width: auto;
+}
+
+.rockerbox_teaser p:first-child {
+    padding: 20px 0;
+    font-size: x-large;
+    color: #5c6a88;
+}
+
+.rockerbox_teaser p:last-child {
+    color: #031c4e;
+}
+
+#rockerbox .rockbox_container p:nth-child(3) {
+    padding-bottom: 30px;
+}
+
+.rockerbox_teaser a {
+    color: #006aff;
+    font-weight: 600;
+}
+
+.rock_footer ul {
+    padding-left: 10px;
+}
+
+.rocker_chevron .chevron-left i {
+    color: #6f7b97;
+}
+
+/*MEDIA QUERY*/
+
+@media screen and (max-width: 991px) and (min-width: 768px) {
+
+    .rocker_chevron .chevron-left, .rocker_chevron .chevron-right {
+        padding-top: 280%;
+    }
+}
+
+@media screen and (max-width: 1200px) and (min-width: 992px) {
+
+    .rocker_chevron .chevron-left, .rocker_chevron .chevron-right {
+        padding-top: 206%;
+    }
+}
+/*MEDIA QUERY*/
+/*rockerbox section*/
+
+/*Get started section*/
+
+#get_start {
+    background-color: #0034ae;
+}
+
+#get_start .get_start_teaser h2 {
+    color: white;
+    font-size: xx-large;
+    font-weight: 600;
+    padding-top: 70px;
+    padding-bottom: 20px;
+}
+
+#get_start .get_start_teaser p button {
+    padding-left: 25px;
+    padding-right: 25px;
+    color: #006aff;
+}
+
+/*Get started section*/
+
+
 
 
 /*Main*/
