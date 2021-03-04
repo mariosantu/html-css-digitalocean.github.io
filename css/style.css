@@ -16,7 +16,7 @@ img {
 
 /*MEDIA QUERY*/
 
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
 
     .logos_list li {
         width: calc( 100% / 2 - 4px );
