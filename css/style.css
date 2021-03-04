@@ -14,20 +14,6 @@ img {
 }
 /*COMMON*/
 
-/*MEDIA QUERY*/
-
-@media screen and (max-width: 768px) {
-
-    .logos_list li {
-        width: calc( 100% / 2 - 4px );
-    }
-}
-
-/*MEDIA QUERY*/
-
-
-
-
 /*HEADER*/
 .top_nav {
     padding: 10px;
@@ -189,6 +175,17 @@ img {
     list-style-type: none;
     display: inline-block;
 }
+
+/*MEDIA QUERY*/
+
+@media screen and (max-width: 768px) {
+
+    .logos_list li {
+        width: calc( 100% / 2 - 4px );
+    }
+}
+
+/*MEDIA QUERY*/
 
 /*Deploy section*/
 
