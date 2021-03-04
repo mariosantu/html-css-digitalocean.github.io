@@ -317,8 +317,49 @@ img {
 }
 /*features section*/
 
+/*region list section*/
 
+#region_list_section {
+    background: #0575E6;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #021B79, #0575E6);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #021B79, #0575E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    padding-top: 80px;
+    padding-bottom: 40px;
+}
 
+.region_title h2 {
+    color: white;
+    font-weight: 600;
+    font-size: xx-large;
+    padding-bottom: 20px;
+}
+
+.region_list_container li {
+    border-bottom: 1px solid white;
+    list-style-type: none;
+    font-weight: 600;
+    font-size: small;
+    padding-top: 15px;
+}
+
+.region_list_container li span {
+    color: white;
+}
+
+.region_list_container li:last-child {
+    border-bottom: none;
+}
+
+.region_list_container li p {
+    display: inline-block;
+    color: #7c95d3;
+}
+
+.region_list_container li a {
+    color: #00c8cf;
+    text-decoration: none;
+}
+/*region list section*/
 
 
 /*Main*/
