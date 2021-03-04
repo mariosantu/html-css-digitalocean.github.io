@@ -177,15 +177,12 @@ img {
 }
 
 .logos_list li {
-    width: calc(100% / 6 );
+    width: calc(100% / 6 - 4px );
     vertical-align: middle;
     list-style-type: none;
-    float: left;
+    display: inline-block;
 }
 
-.logos_list img {
-    vertical-align: middle;
-}
 /*Deploy section*/
 
 
