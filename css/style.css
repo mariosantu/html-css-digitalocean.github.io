@@ -126,7 +126,9 @@ img {
 }
 
 .button_google {
-    padding-top: 10px;
+    border-radius: 8px;
+    margin-top: 5px;
+    box-shadow: 2px 2px lightgrey;
 }
 
 .button_google button {
@@ -152,7 +154,27 @@ img {
 .info_signup p {
     font-size: smaller;
     padding-bottom: 30px;
+    padding-top: 13px;
 }
+
+/*MEDIA QUERY*/
+
+@media screen and (max-width: 991px) and (min-width: 768px) {
+
+    
+.teaser_header h1 {
+    color: white;
+    font-size: xx-large;
+    font-weight: 900;
+    padding-right: 59px;
+}
+
+.teaser_header p {
+    font-size: large;
+}
+}
+
+/*MEDIA QUERY*/
 /*HEADER*/
 
 /*Main*/
@@ -297,6 +319,10 @@ img {
 /*features section*/
 #features_section {
     padding-bottom: 40px;
+}
+
+.features_info_container {
+    padding-top: 15px;
 }
 
 .features_teaser h2 {
@@ -528,6 +554,11 @@ img {
 
 /*MEDIA QUERY*/
 /*FOOTER*/
+
+
+
+
+
 
 
 
